@@ -23,6 +23,8 @@ ingressRoute:
     annotations: {}
     # Additional ingressRoute labels (e.g. for filtering IngressRoute by custom labels)
     labels: {}
+    # Route configuration
+    match: "PathPrefix(`/dashboard`) || PathPrefix(`/api`)"
 
 rollingUpdate:
   maxUnavailable: 1
