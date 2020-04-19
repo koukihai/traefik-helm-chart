@@ -22,7 +22,7 @@ entries:
     sources:
     - https://github.com/containous/traefik
     urls:
-    - https://containous.github.io/traefik-helm-chart/traefik-8.0.4.tgz
+    - https://koukihai.github.io/traefik-helm-chart/traefik-8.0.4.tgz
     version: 8.0.4
   - apiVersion: v1
     appVersion: 2.2.0
